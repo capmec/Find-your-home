@@ -121,4 +121,10 @@ export class HousingService {
   }
 
   constructor() {}
+
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(
+      'Homes application submitted: , firstName: ${firstName}, lastName: ${lastName}, email: ${email}'
+    );
+  }
 }
